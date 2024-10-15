@@ -1,0 +1,38 @@
+#comentario{
+    width: 300px;
+    height: 80px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+button:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+header ul{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+header li{
+    padding: 10px;
+    display: flex;
+}
+
+header a{
+    color: #333;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: aqua;
+}
+header{
+    background-color:aquamarine;
+    width: 100%;
+}
+
+#semaforo{
+    width: 100px;
+    height: 300px;
+}

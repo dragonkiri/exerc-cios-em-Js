@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="./novojs.js"></script>
+</head>
+<body>
+    <button >nao click aki </button>
+    <p id="texto" onmouseover="colorh(this)" onmouseout="reset_colorh(this)">nao click idiota X1 </p>
+
+    <form onsubmit = "validacao()">
+        <label>Name:</label>
+        <input type="text" id="nome">
+        <label>Email:</label>
+        <input type="email" id="email">
+        <input type="submit" value="enviar">
+    </form>
+
+    <input type="text" id="item" placeholder= "adicionar item">
+    <button onclick="add_item()">adicionar</button>
+    <ul id="lista"></ul>
+
+    <button onclick="change_img()">DON'T STOP THE PARTY</button>
+    <img id="pikachu" src="pikapi.jpg">
+
+    <div id="semaforo"></div>
+      <button onclick="changeColor('red')">vermelho</button>
+      <button onclick="changeColor('yellow')">amarelo</button>
+      <button onclick="changeColor('green')">verde</button>
+
+      <form onsubmit="return validatePassword()">
+        Senha:  <input type="password" id="password">
+        <input type="submit" value="Enviar">
+      </form>
+
+      <input type="range" min="10" max="50" oninput="changeFontSize(this.value)">
+      <p id="text">altere o tamanho deste texto</p>
+
+      <p id="contar">10</p>
+
+
+      <p id="mudar"> texto original</p>
+      <button onclick="change_Text()">mudar texto</button>
+
+    <p id="dia"></p>
+
+    <input type ="color" onchange="cor_fundo(this.value)">
+
+    <button onclick ="play()">Descubra</button>
+    <audio id="som" src="oni-chan-139462.mp3"></audio>
+
+    <ul id="list">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+    <button onclick="troca_estilo()">mudar estilo</button>
+
+    <progress id="barra_progresso" value="0" max="100"></progress>
+    <button onclick ="progresso_bar()">aumentar progresso</button>
+
+    <h1>AKI COMEÇA O DESAFIO  </h1>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+    <video id="mp4" src="BMW.mp4" controls></video>
+
+    <button onclick ="tema()">Claro/Escuro</button>
+    <input id = "comentario" type="textarea">
+    <button type="submit">ENVIAR</button>
+
+</body>
+</html>
